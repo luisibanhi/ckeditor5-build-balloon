@@ -13,6 +13,7 @@ import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
+import Font from '@ckeditor/ckeditor5-font/src/font';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
@@ -41,6 +42,7 @@ BalloonEditor.builtinPlugins = [
 	EasyImage,
 	Emoji,
 	Essentials,
+	Font,
 	Heading,
 	Image,
 	ImageCaption,
