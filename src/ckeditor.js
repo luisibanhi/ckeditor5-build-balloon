@@ -14,7 +14,6 @@ import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/Underline';
 
 export default class BalloonEditor extends BalloonEditorBase {}
@@ -29,7 +28,6 @@ BalloonEditor.builtinPlugins = [
 	Italic,
 	List,
 	Paragraph,
-	PasteFromOffice,
 	Underline,
 ];
 
@@ -43,7 +41,6 @@ BalloonEditor.defaultConfig = {
 			'italic',
 			'bulletedList',
 			'numberedList',
-			'imageUpload',
 			'undo',
 			'redo'
 		]
